@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editStaffName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Staff Name"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/editStaffId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Staff ID"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/editSubjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject Name"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/editSubjectCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject Code"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
